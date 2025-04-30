@@ -1,6 +1,5 @@
 'use client';
 
-import * as Y from "yjs"
 import {
     Dialog,
     DialogContent,
@@ -23,19 +22,19 @@ import { BotIcon, LanguagesIcon } from "lucide-react"
 import { toast } from "sonner";
 import Markdown from 'react-markdown'
 
-type Language = 
-    | 'english'
-    | 'spanish'
-    | 'french'
-    | 'german'
-    | 'italian'
-    | 'portuguese'
-    | 'chinese'
-    | 'japanese'
-    | 'korean'
-    | 'russian'
-    | 'arabic'
-    | 'hindi'
+// type Language = 
+//     | 'english'
+//     | 'spanish'
+//     | 'french'
+//     | 'german'
+//     | 'italian'
+//     | 'portuguese'
+//     | 'chinese'
+//     | 'japanese'
+//     | 'korean'
+//     | 'russian'
+//     | 'arabic'
+//     | 'hindi'
 
 const languages = {
     'english': 'en',

@@ -4,16 +4,12 @@ import {
     Dialog,
     DialogContent,
     DialogDescription,
-    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
-    DialogClose
   } from "@/components/ui/dialog"
 import { FormEvent, useState, useTransition } from "react";
 import { Button } from "./ui/button";
-import { usePathname, useRouter } from "next/navigation";
-import { deleteDocument, inviteUserToDocument } from "../../actions/actions";
 import { toast } from "sonner";
 import { Input } from "./ui/input";
 import * as Y from "yjs"

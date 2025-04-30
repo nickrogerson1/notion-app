@@ -6,7 +6,6 @@ import { useCollection } from "react-firebase-hooks/firestore"
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
     SheetHeader,
     SheetTitle,
     SheetTrigger,
@@ -16,7 +15,6 @@ import { useUser } from "@clerk/nextjs"
 import { db } from "@/firebase"
 import { query, where, collectionGroup, DocumentData } from "firebase/firestore"   
 import { useEffect, useState } from "react"
-import { group } from "console"
 import SideBarOption from "./SidebarOption"
 
 interface RoomDocument extends DocumentData {

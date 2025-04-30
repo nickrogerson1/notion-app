@@ -1,7 +1,6 @@
 'use client'
 
 import { useMyPresence, useOthers } from "@liveblocks/react/suspense"
-import { connection } from "next/server"
 import FollowPointer from "./FollowPointer"
 
 export default function LiveCursorProvider({ children }:

@@ -23,7 +23,7 @@ export default function useOwner() {
         }
     }
       
-    }, [usersInRoom, room])
+    }, [usersInRoom, room, user])
 
     return isOwner
   

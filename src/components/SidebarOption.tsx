@@ -2,7 +2,6 @@
 
 import { db } from "@/firebase"
 import { doc } from "firebase/firestore"
-import { use } from "react"
 import { useDocumentData } from "react-firebase-hooks/firestore"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
