@@ -4,12 +4,12 @@
 Users can easily sign up/in and authenticate with Clerk. Once in, they can create, delete and update documents. Users are also able to invite friends to collaborate with them on documents in real-time. 
 
 The build includes two AI features: 
-1. translate and summarise the current document in a foreign (non-English) language. 
+1. Translate and summarise the current document in a foreign (non-English) language. 
 2. Ask AI a question about the current document.
 
 
 ### Tech Stack
-This app was built with React, Next.js and Typescript for additional error checking. Tailwind CSS was also used for a better developer experience and to reduce the amount of CSS served at production. Shadcn was used for creating generic components.
+This app was built with React, Next.js and Typescript for additional error checking. Tailwind CSS was also used for a better developer experience and to reduce the amount of CSS served at production. ShadCN was used for creating generic components.
 
 ### Key Features
 - Easy authentication and sign up/in handled by Clerk.
