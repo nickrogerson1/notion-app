@@ -4,8 +4,8 @@
 Users can easily sign up/in and authenticate with Clerk. Once in, they can create, delete and update documents. Users are also able to invite friends to collaborate with them on documents in real-time. 
 
 The build includes two AI features: 
-    1 translate and summarise the current document in a foreign (non-English) language. 
-    2 Ask AI a question about the current document.
+1. translate and summarise the current document in a foreign (non-English) language. 
+2. Ask AI a question about the current document.
 
 
 ### Tech Stack
